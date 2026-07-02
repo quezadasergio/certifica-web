@@ -116,3 +116,7 @@ This project is **not affiliated** with the SAT or the official Certifica softwa
 ## License
 
 See [LICENSE](LICENSE).
+
+## Live demo
+
+Try the app online: [https://certifica-web.netlify.app/](https://certifica-web.netlify.app/)

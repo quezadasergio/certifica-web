@@ -17,7 +17,18 @@ const showBackToHome = computed(() => route.name !== 'home')
     <RouterView />
   </main>
   <footer class="app-footer">
-    {{ t('footer.text') }}
+    <i18n-t keypath="footer.text" tag="p" class="app-footer__text">
+      <template #author>
+        <a
+          href="https://github.com/quezadasergio"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="app-footer__link"
+        >
+          quezadasergio
+        </a>
+      </template>
+    </i18n-t>
   </footer>
 </template>
 
@@ -35,6 +46,21 @@ const showBackToHome = computed(() => route.name !== 'home')
   font-size: 0.8rem;
   color: var(--color-text-muted);
   text-align: center;
+}
+
+.app-footer__text {
+  margin: 0;
+}
+
+.app-footer__link {
+  color: var(--color-accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.app-footer__link:hover {
+  color: var(--color-accent-dark);
+  text-decoration: underline;
 }
 
 @media (min-width: 640px) {

@@ -15,7 +15,7 @@ export default {
     subtitle: 'Generación de requerimientos de e.firma y sellos digitales',
   },
   footer: {
-    text: 'Versión web no oficial de la aplicación Certifica (antes SOLCEDI). Todo el procesamiento ocurre en su navegador.',
+    text: 'Versión web no oficial de la aplicación Certifica (antes SOLCEDI). Todo el procesamiento ocurre en su navegador. Creado por {author}.',
   },
   home: {
     title: 'Seleccione la opción deseada',

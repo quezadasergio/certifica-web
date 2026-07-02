@@ -15,7 +15,7 @@ export default {
     subtitle: 'Electronic signature and digital seal request generation',
   },
   footer: {
-    text: 'Unofficial web version of the Certifica application (formerly SOLCEDI). All processing happens in your browser.',
+    text: 'Unofficial web version of the Certifica application (formerly SOLCEDI). All processing happens in your browser. Created by {author}.',
   },
   home: {
     title: 'Select the desired option',
